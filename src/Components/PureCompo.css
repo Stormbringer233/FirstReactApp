@@ -1,0 +1,16 @@
+.h2-style {
+    color:red;
+    background: yellow;
+    padding: 20px;
+    margin: 10px;
+}
+
+.h2-styleCompo {
+    color: violet;
+    font-size: 0.7em;
+    margin: 0px;
+}
+
+.h2-style-state {
+    color: yellowgreen;
+}
