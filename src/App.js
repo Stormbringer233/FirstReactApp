@@ -11,10 +11,10 @@ class App extends React.Component {
             stateApp : "",
             arrayName:[]
         }
-        this.state.arrayName.push("Michael");
-        this.state.arrayName.push("Onaelle");
-        this.state.arrayName.push("Quentin");
-        this.state.arrayName.push("Sandrine");
+        this.state.arrayName.push("Banane");
+        this.state.arrayName.push("Cerise");
+        this.state.arrayName.push("Pomme");
+        this.state.arrayName.push("Abricot");
     }
 
     OnInputVal = (val) => {
@@ -29,7 +29,7 @@ class App extends React.Component {
             
             <CompoState OnInputVal={this.OnInputVal}/>
             <PureCompo label={this.state.stateApp}/>
-            {this.state.stateApp === "Onaelle" ? <PureCompoProps label={this.state.stateApp} age={48}/> : <div></div>}
+            {this.state.stateApp === "Cerise" ? <PureCompoProps label={this.state.stateApp} age={48}/> : <div></div>}
             
             
             {this.state.arrayName.map((name) => 
